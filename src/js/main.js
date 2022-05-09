@@ -14,7 +14,7 @@ var waypoint = new Waypoint({
         button.classList.add('bounce')  
         console.log("trigger-2")
     },
-    offset:500
+   
 })
 
 var waypoint = new Waypoint({
@@ -32,7 +32,7 @@ var waypoint = new Waypoint({
 
         console.log("trigger-3")
     },
-    offset:500
+    
 })
 
 var waypoint = new Waypoint({
@@ -42,7 +42,7 @@ var waypoint = new Waypoint({
         catering.classList.add('shake')  
         console.log("trigger-4")
     },
-    offset:500
+   
 })
 
 //   each waypoint = section
