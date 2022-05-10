@@ -296,6 +296,9 @@ body {
 	@include mixins.bp-large{
 		height:100vh;
 	}
+
+	
+
 	.main__story--copy{
 		position: absolute;
 		background-color: white;
@@ -306,7 +309,9 @@ body {
 		width: 300px;
 		bottom: 10px;
 		right: 20px;
+		overflow: hidden;
 		z-index: 2;
+		transition: 3s;
 
 		@include mixins.bp-large{
 			width: 828px;

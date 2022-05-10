@@ -10,10 +10,14 @@ var waypoint = new Waypoint({
 var waypoint = new Waypoint({
     element: document.querySelector('.main__story'),
     handler: function() {
+        const sec = document.querySelector('.main__story--copy')
         const button = document.querySelector('.menu__button')
-        button.classList.add('bounce')  
+        button.classList.add('bounce') 
+        sec.classList.add('slide') 
         console.log("trigger-2")
     },
+
+    offset: 30
    
 })
 
